@@ -318,6 +318,14 @@
       landingPageType: Service
       children:
       - azure-mgmt-deploymentmanager*
+  - name: Digital Twins
+    uid: azure.python.sdk.landingPage.services.digitaltwins
+    items:
+    - name: Management
+      uid: azure.python.sdk.landingPage.services.DigitalTwins.Management
+      landingPageType: Service
+      children:
+      - azure-mgmt-digitaltwins*
   - name: DevTest Labs
     uid: azure.python.sdk.landingPage.services.DevTest.Labs
     href: ~/docs-ref-services/devtest-labs.md
