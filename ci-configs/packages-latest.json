@@ -2011,7 +2011,7 @@
         "prefer_source_distribution": "true"
       }
     }
-  ]
+  ],
   "required_packages": [
     {
       "install_type": "pypi",
