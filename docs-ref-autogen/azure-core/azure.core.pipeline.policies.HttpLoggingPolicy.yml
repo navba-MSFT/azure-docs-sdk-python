@@ -31,12 +31,12 @@ methods:
 attributes:
 - uid: azure.core.pipeline.policies.HttpLoggingPolicy.DEFAULT_HEADERS_WHITELIST
   name: DEFAULT_HEADERS_WHITELIST
-  signature: 'DEFAULT_HEADERS_WHITELIST = {''Pragma'', ''traceparent'', ''User-Agent'',
-    ''Content-Length'', ''Content-Type'', ''If-None-Match'', ''Request-Id'', ''Last-Modified'',
-    ''Retry-After'', ''Date'', ''Transfer-Encoding'', ''Connection'', ''Cache-Control'',
-    ''If-Match'', ''If-Unmodified-Since'', ''x-ms-return-client-request-id'', ''ETag'',
-    ''Expires'', ''x-ms-request-id'', ''If-Modified-Since'', ''x-ms-client-request-id'',
-    ''Server'', ''Accept''}'
+  signature: 'DEFAULT_HEADERS_WHITELIST = {''Content-Length'', ''Accept'', ''If-None-Match'',
+    ''If-Match'', ''User-Agent'', ''x-ms-return-client-request-id'', ''If-Modified-Since'',
+    ''Content-Type'', ''Transfer-Encoding'', ''x-ms-client-request-id'', ''If-Unmodified-Since'',
+    ''Cache-Control'', ''Last-Modified'', ''Expires'', ''Connection'', ''Server'',
+    ''Pragma'', ''traceparent'', ''ETag'', ''x-ms-request-id'', ''Request-Id'', ''Retry-After'',
+    ''Date''}'
 - uid: azure.core.pipeline.policies.HttpLoggingPolicy.REDACTED_PLACEHOLDER
   name: REDACTED_PLACEHOLDER
   signature: REDACTED_PLACEHOLDER = 'REDACTED'

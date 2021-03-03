@@ -477,6 +477,7 @@
       landingPageType: Service
       children:
       - azure-mgmt-redis*
+      - azure-mgmt-redisenterprise*
   - name: Relay
     uid: azure.python.sdk.landingPage.services.Relay.pre
     landingPageType: Service

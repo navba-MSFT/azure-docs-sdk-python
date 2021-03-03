@@ -21053,22 +21053,12 @@
       - items:
         - name: Overview
           uid: azure.mgmt.datadog.aio.operations
-        - name: azure.mgmt.datadog.aio.operations.ApiKeysOperations
-          uid: azure.mgmt.datadog.aio.operations.ApiKeysOperations
-        - name: azure.mgmt.datadog.aio.operations.HostsOperations
-          uid: azure.mgmt.datadog.aio.operations.HostsOperations
-        - name: azure.mgmt.datadog.aio.operations.LinkedResourcesOperations
-          uid: azure.mgmt.datadog.aio.operations.LinkedResourcesOperations
         - name: azure.mgmt.datadog.aio.operations.MarketplaceAgreementsOperations
           uid: azure.mgmt.datadog.aio.operations.MarketplaceAgreementsOperations
-        - name: azure.mgmt.datadog.aio.operations.MonitoredResourcesOperations
-          uid: azure.mgmt.datadog.aio.operations.MonitoredResourcesOperations
         - name: azure.mgmt.datadog.aio.operations.MonitorsOperations
           uid: azure.mgmt.datadog.aio.operations.MonitorsOperations
         - name: azure.mgmt.datadog.aio.operations.Operations
           uid: azure.mgmt.datadog.aio.operations.Operations
-        - name: azure.mgmt.datadog.aio.operations.RefreshSetPasswordOperations
-          uid: azure.mgmt.datadog.aio.operations.RefreshSetPasswordOperations
         - name: azure.mgmt.datadog.aio.operations.SingleSignOnConfigurationsOperations
           uid: azure.mgmt.datadog.aio.operations.SingleSignOnConfigurationsOperations
         - name: azure.mgmt.datadog.aio.operations.TagRulesOperations
@@ -21174,22 +21164,12 @@
     - items:
       - name: Overview
         uid: azure.mgmt.datadog.operations
-      - name: azure.mgmt.datadog.operations.ApiKeysOperations
-        uid: azure.mgmt.datadog.operations.ApiKeysOperations
-      - name: azure.mgmt.datadog.operations.HostsOperations
-        uid: azure.mgmt.datadog.operations.HostsOperations
-      - name: azure.mgmt.datadog.operations.LinkedResourcesOperations
-        uid: azure.mgmt.datadog.operations.LinkedResourcesOperations
       - name: azure.mgmt.datadog.operations.MarketplaceAgreementsOperations
         uid: azure.mgmt.datadog.operations.MarketplaceAgreementsOperations
-      - name: azure.mgmt.datadog.operations.MonitoredResourcesOperations
-        uid: azure.mgmt.datadog.operations.MonitoredResourcesOperations
       - name: azure.mgmt.datadog.operations.MonitorsOperations
         uid: azure.mgmt.datadog.operations.MonitorsOperations
       - name: azure.mgmt.datadog.operations.Operations
         uid: azure.mgmt.datadog.operations.Operations
-      - name: azure.mgmt.datadog.operations.RefreshSetPasswordOperations
-        uid: azure.mgmt.datadog.operations.RefreshSetPasswordOperations
       - name: azure.mgmt.datadog.operations.SingleSignOnConfigurationsOperations
         uid: azure.mgmt.datadog.operations.SingleSignOnConfigurationsOperations
       - name: azure.mgmt.datadog.operations.TagRulesOperations
@@ -31525,6 +31505,10 @@
         uid: azure.mgmt.cosmosdb.models.AutoscaleSettings
       - name: azure.mgmt.cosmosdb.models.AutoscaleSettingsResource
         uid: azure.mgmt.cosmosdb.models.AutoscaleSettingsResource
+      - name: azure.mgmt.cosmosdb.models.BackupPolicy
+        uid: azure.mgmt.cosmosdb.models.BackupPolicy
+      - name: azure.mgmt.cosmosdb.models.BackupPolicyType
+        uid: azure.mgmt.cosmosdb.models.BackupPolicyType
       - name: azure.mgmt.cosmosdb.models.Capability
         uid: azure.mgmt.cosmosdb.models.Capability
       - name: azure.mgmt.cosmosdb.models.CassandraKeyspaceCreateUpdateParameters
@@ -31559,6 +31543,8 @@
         uid: azure.mgmt.cosmosdb.models.ClusterKey
       - name: azure.mgmt.cosmosdb.models.Column
         uid: azure.mgmt.cosmosdb.models.Column
+      - name: azure.mgmt.cosmosdb.models.Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties
+        uid: azure.mgmt.cosmosdb.models.Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties
       - name: azure.mgmt.cosmosdb.models.CompositePath
         uid: azure.mgmt.cosmosdb.models.CompositePath
       - name: azure.mgmt.cosmosdb.models.CompositePathSortOrder
@@ -31573,6 +31559,8 @@
         uid: azure.mgmt.cosmosdb.models.ConsistencyPolicy
       - name: azure.mgmt.cosmosdb.models.ContainerPartitionKey
         uid: azure.mgmt.cosmosdb.models.ContainerPartitionKey
+      - name: azure.mgmt.cosmosdb.models.ContinuousModeBackupPolicy
+        uid: azure.mgmt.cosmosdb.models.ContinuousModeBackupPolicy
       - name: azure.mgmt.cosmosdb.models.CorsPolicy
         uid: azure.mgmt.cosmosdb.models.CorsPolicy
       - name: azure.mgmt.cosmosdb.models.CreateUpdateOptions
@@ -31601,8 +31589,14 @@
         uid: azure.mgmt.cosmosdb.models.DatabaseAccountsListResult
       - name: azure.mgmt.cosmosdb.models.DefaultConsistencyLevel
         uid: azure.mgmt.cosmosdb.models.DefaultConsistencyLevel
+      - name: azure.mgmt.cosmosdb.models.ErrorAdditionalInfo
+        uid: azure.mgmt.cosmosdb.models.ErrorAdditionalInfo
       - name: azure.mgmt.cosmosdb.models.ErrorResponse
         uid: azure.mgmt.cosmosdb.models.ErrorResponse
+      - name: azure.mgmt.cosmosdb.models.ErrorResponseAutoGenerated
+        uid: azure.mgmt.cosmosdb.models.ErrorResponseAutoGenerated
+      - name: azure.mgmt.cosmosdb.models.ErrorResponseUpdatedFormat
+        uid: azure.mgmt.cosmosdb.models.ErrorResponseUpdatedFormat
       - name: azure.mgmt.cosmosdb.models.ExcludedPath
         uid: azure.mgmt.cosmosdb.models.ExcludedPath
       - name: azure.mgmt.cosmosdb.models.ExtendedResourceProperties
@@ -31651,6 +31645,8 @@
         uid: azure.mgmt.cosmosdb.models.KeyKind
       - name: azure.mgmt.cosmosdb.models.Location
         uid: azure.mgmt.cosmosdb.models.Location
+      - name: azure.mgmt.cosmosdb.models.ManagedServiceIdentity
+        uid: azure.mgmt.cosmosdb.models.ManagedServiceIdentity
       - name: azure.mgmt.cosmosdb.models.Metric
         uid: azure.mgmt.cosmosdb.models.Metric
       - name: azure.mgmt.cosmosdb.models.MetricAvailability
@@ -31695,6 +31691,8 @@
         uid: azure.mgmt.cosmosdb.models.MongoIndexKeys
       - name: azure.mgmt.cosmosdb.models.MongoIndexOptions
         uid: azure.mgmt.cosmosdb.models.MongoIndexOptions
+      - name: azure.mgmt.cosmosdb.models.NetworkAclBypass
+        uid: azure.mgmt.cosmosdb.models.NetworkAclBypass
       - name: azure.mgmt.cosmosdb.models.NotebookWorkspace
         uid: azure.mgmt.cosmosdb.models.NotebookWorkspace
       - name: azure.mgmt.cosmosdb.models.NotebookWorkspaceConnectionInfoResult
@@ -31729,12 +31727,14 @@
         uid: azure.mgmt.cosmosdb.models.PercentileMetricListResult
       - name: azure.mgmt.cosmosdb.models.PercentileMetricValue
         uid: azure.mgmt.cosmosdb.models.PercentileMetricValue
+      - name: azure.mgmt.cosmosdb.models.PeriodicModeBackupPolicy
+        uid: azure.mgmt.cosmosdb.models.PeriodicModeBackupPolicy
+      - name: azure.mgmt.cosmosdb.models.PeriodicModeProperties
+        uid: azure.mgmt.cosmosdb.models.PeriodicModeProperties
       - name: azure.mgmt.cosmosdb.models.PrimaryAggregationType
         uid: azure.mgmt.cosmosdb.models.PrimaryAggregationType
       - name: azure.mgmt.cosmosdb.models.PrivateEndpointConnection
         uid: azure.mgmt.cosmosdb.models.PrivateEndpointConnection
-      - name: azure.mgmt.cosmosdb.models.PrivateEndpointConnectionAutoGenerated
-        uid: azure.mgmt.cosmosdb.models.PrivateEndpointConnectionAutoGenerated
       - name: azure.mgmt.cosmosdb.models.PrivateEndpointConnectionListResult
         uid: azure.mgmt.cosmosdb.models.PrivateEndpointConnectionListResult
       - name: azure.mgmt.cosmosdb.models.PrivateEndpointProperty
@@ -31745,8 +31745,6 @@
         uid: azure.mgmt.cosmosdb.models.PrivateLinkResourceListResult
       - name: azure.mgmt.cosmosdb.models.PrivateLinkServiceConnectionStateProperty
         uid: azure.mgmt.cosmosdb.models.PrivateLinkServiceConnectionStateProperty
-      - name: azure.mgmt.cosmosdb.models.PrivateLinkServiceConnectionStatePropertyAutoGenerated
-        uid: azure.mgmt.cosmosdb.models.PrivateLinkServiceConnectionStatePropertyAutoGenerated
       - name: azure.mgmt.cosmosdb.models.ProxyResource
         uid: azure.mgmt.cosmosdb.models.ProxyResource
       - name: azure.mgmt.cosmosdb.models.PublicNetworkAccess
@@ -31755,6 +31753,8 @@
         uid: azure.mgmt.cosmosdb.models.RegionForOnlineOffline
       - name: azure.mgmt.cosmosdb.models.Resource
         uid: azure.mgmt.cosmosdb.models.Resource
+      - name: azure.mgmt.cosmosdb.models.ResourceIdentityType
+        uid: azure.mgmt.cosmosdb.models.ResourceIdentityType
       - name: azure.mgmt.cosmosdb.models.ServerVersion
         uid: azure.mgmt.cosmosdb.models.ServerVersion
       - name: azure.mgmt.cosmosdb.models.SpatialSpec
@@ -34840,53 +34840,6 @@
       uid: azure.mgmt.securityinsight.SecurityInsights
     name: azure.mgmt.securityinsight
   name: azure-mgmt-securityinsight
-
-- items:
-  - name: Overview
-    uid: project-microsoft-opentelemetry-exporter-azuremonitor
-  - items:
-    - name: Overview
-      uid: microsoft.opentelemetry.exporter.azuremonitor
-    - items:
-      - name: Overview
-        uid: microsoft.opentelemetry.exporter.azuremonitor.export
-      - items:
-        - name: Overview
-          uid: microsoft.opentelemetry.exporter.azuremonitor.export.trace
-        - name: microsoft.opentelemetry.exporter.azuremonitor.export.trace.AzureMonitorSpanExporter
-          uid: microsoft.opentelemetry.exporter.azuremonitor.export.trace.AzureMonitorSpanExporter
-        name: microsoft.opentelemetry.exporter.azuremonitor.export.trace
-      - name: microsoft.opentelemetry.exporter.azuremonitor.export.BaseExporter
-        uid: microsoft.opentelemetry.exporter.azuremonitor.export.BaseExporter
-      - name: microsoft.opentelemetry.exporter.azuremonitor.export.ExportResult
-        uid: microsoft.opentelemetry.exporter.azuremonitor.export.ExportResult
-      name: microsoft.opentelemetry.exporter.azuremonitor.export
-    - items:
-      - name: Overview
-        uid: microsoft.opentelemetry.exporter.azuremonitor.options
-      - name: microsoft.opentelemetry.exporter.azuremonitor.options.BaseObject
-        uid: microsoft.opentelemetry.exporter.azuremonitor.options.BaseObject
-      - name: microsoft.opentelemetry.exporter.azuremonitor.options.ExporterOptions
-        uid: microsoft.opentelemetry.exporter.azuremonitor.options.ExporterOptions
-      name: microsoft.opentelemetry.exporter.azuremonitor.options
-    - items:
-      - name: Overview
-        uid: microsoft.opentelemetry.exporter.azuremonitor.storage
-      - name: microsoft.opentelemetry.exporter.azuremonitor.storage.LocalFileBlob
-        uid: microsoft.opentelemetry.exporter.azuremonitor.storage.LocalFileBlob
-      - name: microsoft.opentelemetry.exporter.azuremonitor.storage.LocalFileStorage
-        uid: microsoft.opentelemetry.exporter.azuremonitor.storage.LocalFileStorage
-      name: microsoft.opentelemetry.exporter.azuremonitor.storage
-    - items:
-      - name: Overview
-        uid: microsoft.opentelemetry.exporter.azuremonitor.utils
-      - name: microsoft.opentelemetry.exporter.azuremonitor.utils.PeriodicTask
-        uid: microsoft.opentelemetry.exporter.azuremonitor.utils.PeriodicTask
-      name: microsoft.opentelemetry.exporter.azuremonitor.utils
-    - name: microsoft.opentelemetry.exporter.azuremonitor.AzureMonitorSpanExporter
-      uid: microsoft.opentelemetry.exporter.azuremonitor.AzureMonitorSpanExporter
-    name: microsoft.opentelemetry.exporter.azuremonitor
-  name: microsoft-opentelemetry-exporter-azuremonitor
 
 - items:
   - name: Overview
@@ -53606,33 +53559,6 @@
 
 - items:
   - name: Overview
-    uid: project-azure-opentelemetry-exporter-azuremonitor
-  - items:
-    - name: Overview
-      uid: azure.opentelemetry
-    - items:
-      - name: Overview
-        uid: azure.opentelemetry.exporter
-      - items:
-        - name: Overview
-          uid: azure.opentelemetry.exporter.azuremonitor
-        - items:
-          - name: Overview
-            uid: azure.opentelemetry.exporter.azuremonitor.export
-          - name: azure.opentelemetry.exporter.azuremonitor.export.trace
-            uid: azure.opentelemetry.exporter.azuremonitor.export.trace
-          name: azure.opentelemetry.exporter.azuremonitor.export
-        - name: azure.opentelemetry.exporter.azuremonitor.AzureMonitorTraceExporter
-          uid: azure.opentelemetry.exporter.azuremonitor.AzureMonitorTraceExporter
-        - name: azure.opentelemetry.exporter.azuremonitor.ExporterOptions
-          uid: azure.opentelemetry.exporter.azuremonitor.ExporterOptions
-        name: azure.opentelemetry.exporter.azuremonitor
-      name: azure.opentelemetry.exporter
-    name: azure.opentelemetry
-  name: azure-opentelemetry-exporter-azuremonitor
-
-- items:
-  - name: Overview
     uid: project-azure-mgmt-healthbot
   - items:
     - name: Overview
@@ -54464,145 +54390,6 @@
       uid: azure.mgmt.purview.PurviewManagementClient
     name: azure.mgmt.purview
   name: azure-mgmt-purview
-
-- items:
-  - name: Overview
-    uid: project-azure-mgmt-redisenterprise
-  - items:
-    - name: Overview
-      uid: azure.mgmt.redisenterprise
-    - items:
-      - name: Overview
-        uid: azure.mgmt.redisenterprise.aio
-      - items:
-        - name: Overview
-          uid: azure.mgmt.redisenterprise.aio.operations
-        - name: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations
-          uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations
-        - name: azure.mgmt.redisenterprise.aio.operations.Operations
-          uid: azure.mgmt.redisenterprise.aio.operations.Operations
-        - name: azure.mgmt.redisenterprise.aio.operations.OperationsStatusOperations
-          uid: azure.mgmt.redisenterprise.aio.operations.OperationsStatusOperations
-        - name: azure.mgmt.redisenterprise.aio.operations.PrivateEndpointConnectionsOperations
-          uid: azure.mgmt.redisenterprise.aio.operations.PrivateEndpointConnectionsOperations
-        - name: azure.mgmt.redisenterprise.aio.operations.PrivateLinkResourcesOperations
-          uid: azure.mgmt.redisenterprise.aio.operations.PrivateLinkResourcesOperations
-        - name: azure.mgmt.redisenterprise.aio.operations.RedisEnterpriseOperations
-          uid: azure.mgmt.redisenterprise.aio.operations.RedisEnterpriseOperations
-        name: azure.mgmt.redisenterprise.aio.operations
-      - name: azure.mgmt.redisenterprise.aio.RedisEnterpriseManagementClient
-        uid: azure.mgmt.redisenterprise.aio.RedisEnterpriseManagementClient
-      name: azure.mgmt.redisenterprise.aio
-    - items:
-      - name: Overview
-        uid: azure.mgmt.redisenterprise.models
-      - name: azure.mgmt.redisenterprise.models.AccessKeyType
-        uid: azure.mgmt.redisenterprise.models.AccessKeyType
-      - name: azure.mgmt.redisenterprise.models.AccessKeys
-        uid: azure.mgmt.redisenterprise.models.AccessKeys
-      - name: azure.mgmt.redisenterprise.models.ActionType
-        uid: azure.mgmt.redisenterprise.models.ActionType
-      - name: azure.mgmt.redisenterprise.models.AofFrequency
-        uid: azure.mgmt.redisenterprise.models.AofFrequency
-      - name: azure.mgmt.redisenterprise.models.Cluster
-        uid: azure.mgmt.redisenterprise.models.Cluster
-      - name: azure.mgmt.redisenterprise.models.ClusterList
-        uid: azure.mgmt.redisenterprise.models.ClusterList
-      - name: azure.mgmt.redisenterprise.models.ClusterUpdate
-        uid: azure.mgmt.redisenterprise.models.ClusterUpdate
-      - name: azure.mgmt.redisenterprise.models.ClusteringPolicy
-        uid: azure.mgmt.redisenterprise.models.ClusteringPolicy
-      - name: azure.mgmt.redisenterprise.models.Database
-        uid: azure.mgmt.redisenterprise.models.Database
-      - name: azure.mgmt.redisenterprise.models.DatabaseList
-        uid: azure.mgmt.redisenterprise.models.DatabaseList
-      - name: azure.mgmt.redisenterprise.models.DatabaseUpdate
-        uid: azure.mgmt.redisenterprise.models.DatabaseUpdate
-      - name: azure.mgmt.redisenterprise.models.ErrorAdditionalInfo
-        uid: azure.mgmt.redisenterprise.models.ErrorAdditionalInfo
-      - name: azure.mgmt.redisenterprise.models.ErrorDetail
-        uid: azure.mgmt.redisenterprise.models.ErrorDetail
-      - name: azure.mgmt.redisenterprise.models.ErrorResponse
-        uid: azure.mgmt.redisenterprise.models.ErrorResponse
-      - name: azure.mgmt.redisenterprise.models.EvictionPolicy
-        uid: azure.mgmt.redisenterprise.models.EvictionPolicy
-      - name: azure.mgmt.redisenterprise.models.ExportClusterParameters
-        uid: azure.mgmt.redisenterprise.models.ExportClusterParameters
-      - name: azure.mgmt.redisenterprise.models.ImportClusterParameters
-        uid: azure.mgmt.redisenterprise.models.ImportClusterParameters
-      - name: azure.mgmt.redisenterprise.models.Module
-        uid: azure.mgmt.redisenterprise.models.Module
-      - name: azure.mgmt.redisenterprise.models.Operation
-        uid: azure.mgmt.redisenterprise.models.Operation
-      - name: azure.mgmt.redisenterprise.models.OperationDisplay
-        uid: azure.mgmt.redisenterprise.models.OperationDisplay
-      - name: azure.mgmt.redisenterprise.models.OperationListResult
-        uid: azure.mgmt.redisenterprise.models.OperationListResult
-      - name: azure.mgmt.redisenterprise.models.OperationStatus
-        uid: azure.mgmt.redisenterprise.models.OperationStatus
-      - name: azure.mgmt.redisenterprise.models.Origin
-        uid: azure.mgmt.redisenterprise.models.Origin
-      - name: azure.mgmt.redisenterprise.models.Persistence
-        uid: azure.mgmt.redisenterprise.models.Persistence
-      - name: azure.mgmt.redisenterprise.models.PrivateEndpoint
-        uid: azure.mgmt.redisenterprise.models.PrivateEndpoint
-      - name: azure.mgmt.redisenterprise.models.PrivateEndpointConnection
-        uid: azure.mgmt.redisenterprise.models.PrivateEndpointConnection
-      - name: azure.mgmt.redisenterprise.models.PrivateEndpointConnectionListResult
-        uid: azure.mgmt.redisenterprise.models.PrivateEndpointConnectionListResult
-      - name: azure.mgmt.redisenterprise.models.PrivateEndpointConnectionProvisioningState
-        uid: azure.mgmt.redisenterprise.models.PrivateEndpointConnectionProvisioningState
-      - name: azure.mgmt.redisenterprise.models.PrivateEndpointServiceConnectionStatus
-        uid: azure.mgmt.redisenterprise.models.PrivateEndpointServiceConnectionStatus
-      - name: azure.mgmt.redisenterprise.models.PrivateLinkResource
-        uid: azure.mgmt.redisenterprise.models.PrivateLinkResource
-      - name: azure.mgmt.redisenterprise.models.PrivateLinkResourceListResult
-        uid: azure.mgmt.redisenterprise.models.PrivateLinkResourceListResult
-      - name: azure.mgmt.redisenterprise.models.PrivateLinkServiceConnectionState
-        uid: azure.mgmt.redisenterprise.models.PrivateLinkServiceConnectionState
-      - name: azure.mgmt.redisenterprise.models.Protocol
-        uid: azure.mgmt.redisenterprise.models.Protocol
-      - name: azure.mgmt.redisenterprise.models.ProvisioningState
-        uid: azure.mgmt.redisenterprise.models.ProvisioningState
-      - name: azure.mgmt.redisenterprise.models.ProxyResource
-        uid: azure.mgmt.redisenterprise.models.ProxyResource
-      - name: azure.mgmt.redisenterprise.models.RdbFrequency
-        uid: azure.mgmt.redisenterprise.models.RdbFrequency
-      - name: azure.mgmt.redisenterprise.models.RegenerateKeyParameters
-        uid: azure.mgmt.redisenterprise.models.RegenerateKeyParameters
-      - name: azure.mgmt.redisenterprise.models.Resource
-        uid: azure.mgmt.redisenterprise.models.Resource
-      - name: azure.mgmt.redisenterprise.models.ResourceState
-        uid: azure.mgmt.redisenterprise.models.ResourceState
-      - name: azure.mgmt.redisenterprise.models.Sku
-        uid: azure.mgmt.redisenterprise.models.Sku
-      - name: azure.mgmt.redisenterprise.models.SkuName
-        uid: azure.mgmt.redisenterprise.models.SkuName
-      - name: azure.mgmt.redisenterprise.models.TlsVersion
-        uid: azure.mgmt.redisenterprise.models.TlsVersion
-      - name: azure.mgmt.redisenterprise.models.TrackedResource
-        uid: azure.mgmt.redisenterprise.models.TrackedResource
-      name: azure.mgmt.redisenterprise.models
-    - items:
-      - name: Overview
-        uid: azure.mgmt.redisenterprise.operations
-      - name: azure.mgmt.redisenterprise.operations.DatabasesOperations
-        uid: azure.mgmt.redisenterprise.operations.DatabasesOperations
-      - name: azure.mgmt.redisenterprise.operations.Operations
-        uid: azure.mgmt.redisenterprise.operations.Operations
-      - name: azure.mgmt.redisenterprise.operations.OperationsStatusOperations
-        uid: azure.mgmt.redisenterprise.operations.OperationsStatusOperations
-      - name: azure.mgmt.redisenterprise.operations.PrivateEndpointConnectionsOperations
-        uid: azure.mgmt.redisenterprise.operations.PrivateEndpointConnectionsOperations
-      - name: azure.mgmt.redisenterprise.operations.PrivateLinkResourcesOperations
-        uid: azure.mgmt.redisenterprise.operations.PrivateLinkResourcesOperations
-      - name: azure.mgmt.redisenterprise.operations.RedisEnterpriseOperations
-        uid: azure.mgmt.redisenterprise.operations.RedisEnterpriseOperations
-      name: azure.mgmt.redisenterprise.operations
-    - name: azure.mgmt.redisenterprise.RedisEnterpriseManagementClient
-      uid: azure.mgmt.redisenterprise.RedisEnterpriseManagementClient
-    name: azure.mgmt.redisenterprise
-  name: azure-mgmt-redisenterprise
 
 - items:
   - name: Overview
