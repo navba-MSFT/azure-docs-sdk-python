@@ -25,7 +25,11 @@ examples:
 - "Configuring a proxy policy.<!--[!code-python[Main](les\\test_example_sansio.py\
   \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
   : [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\121\\\\\
+<<<<<<< HEAD
   azure-core-1.12.0\\\\samples\\\\test_example_sansio.py\", \"xml:space\": \"preserve\"\
+=======
+  azure-core-1.11.0\\\\samples\\\\test_example_sansio.py\", \"xml:space\": \"preserve\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
   , \"language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
   : 1}} -->\n\n````python\n\n   from azure.core.pipeline.policies import ProxyPolicy\n\
   \n   proxy_policy = ProxyPolicy()\n\n   # Example\n   proxy_policy.proxies = {'http':\

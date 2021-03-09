@@ -61,7 +61,11 @@ examples:
 - "Creating the DataLakeServiceClient from connection string.<!--[!code-python[Main](les\\\
   datalake_samples_instantiate_client.py )]-->\n\n<!-- literal_block {\"ids\": [],\
   \ \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
+<<<<<<< HEAD
   : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\129\\\\azure-storage-file-datalake-12.3.0\\\
+=======
+  : \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\\128\\\\azure-storage-file-datalake-12.3.0\\\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
   \\samples\\\\datalake_samples_instantiate_client.py\", \"xml:space\": \"preserve\"\
   , \"language\": \"python\", \"linenos\": false, \"highlight_args\": {\"linenostart\"\
   : 1}} -->\n\n````python\n\n   from azure.storage.filedatalake import DataLakeFileClient\n\
@@ -111,7 +115,11 @@ methods:
   - "Append data to the file.<!--[!code-python[Main](les\\datalake_samples_upload_download.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+<<<<<<< HEAD
     \\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+=======
+    \\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   file_client.append_data(data=file_content[2048:3072],\
     \ offset=2048, length=1024)\n\n   ````\n"
@@ -219,7 +227,11 @@ methods:
   - "Create file.<!--[!code-python[Main](les\\datalake_samples_upload_download.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+<<<<<<< HEAD
     \\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+=======
+    \\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   file_client =\
     \ filesystem_client.get_file_client(file_name)\n   file_client.create_file()\n\
@@ -282,7 +294,11 @@ methods:
   - "Delete file.<!--[!code-python[Main](les\\datalake_samples_upload_download.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+<<<<<<< HEAD
     \\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+=======
+    \\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   new_client.delete_file()\n\
     \n   ````\n"
@@ -375,7 +391,11 @@ methods:
   - "Return the downloaded data.<!--[!code-python[Main](les\\datalake_samples_upload_download.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+<<<<<<< HEAD
     \\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+=======
+    \\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   download = file_client.download_file()\n\
     \   downloaded_bytes = download.readall()\n\n   ````\n"
@@ -493,7 +513,11 @@ methods:
   - "Commit the previous appended data.<!--[!code-python[Main](les\\datalake_samples_file_system.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+<<<<<<< HEAD
     \\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_file_system.py\"\
+=======
+    \\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_file_system.py\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   with open(SOURCE_FILE,\
     \ \"rb\") as data:\n       file_client = file_system_client.get_file_client(\"\
@@ -607,7 +631,11 @@ methods:
   - "Getting the properties for a file.<!--[!code-python[Main](les\\datalake_samples_upload_download.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+<<<<<<< HEAD
     \\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+=======
+    \\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   properties = file_client.get_file_properties()\n\
     \n   ````\n"
@@ -709,7 +737,11 @@ methods:
   - "select/project on datalake file data by providing simple query expressions.<!--[!code-python[Main](les\\\
     datalake_samples_query.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\\
+<<<<<<< HEAD
     a\\\\1\\\\s\\\\dist_temp\\\\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\
+=======
+    a\\\\1\\\\s\\\\dist_temp\\\\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     \\datalake_samples_query.py\", \"xml:space\": \"preserve\", \"language\": \"python\"\
     , \"linenos\": false, \"highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\
     \n   errors = []\n   def on_error(error):\n       errors.append(error)\n\n   #\
@@ -832,7 +864,11 @@ methods:
   - "Rename the source file.<!--[!code-python[Main](les\\datalake_samples_upload_download.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\1\\\\s\\\\dist_temp\\\
+<<<<<<< HEAD
     \\129\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+=======
+    \\128\\\\azure-storage-file-datalake-12.3.0\\\\samples\\\\datalake_samples_upload_download.py\"\
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
     , \"xml:space\": \"preserve\", \"language\": \"python\", \"linenos\": false, \"\
     highlight_args\": {\"linenostart\": 1}} -->\n\n````python\n\n   new_client = file_client.rename_file(file_client.file_system_name\
     \ + '/' + 'newname')\n\n   ````\n"

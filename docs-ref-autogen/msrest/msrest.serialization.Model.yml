@@ -32,7 +32,11 @@ methods:
     types:
     - <xref:function>
   - name: key_transformer
+<<<<<<< HEAD
     defaultValue: <function attribute_transformer at 0x000002A6E8A63950>
+=======
+    defaultValue: <function attribute_transformer at 0x0000020470AF0510>
+>>>>>>> 22714200383267355f19d65cd2e19cd4d74439eb
   return:
     description: A dict JSON compatible object
     types:
