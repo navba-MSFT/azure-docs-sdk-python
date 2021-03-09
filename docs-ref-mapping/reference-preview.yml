@@ -331,6 +331,7 @@
       landingPageType: Service
       children:
       - azure-mgmt-iothub*
+      - azure-mgmt-deviceupdate*
   - name: Key Vault
     uid: azure.python.sdk.landingPage.services.Key.Vault.pre
     href: ~/docs-ref-services/preview/key-vault-index.md
@@ -416,11 +417,11 @@
       - azure-mgmt-mixedreality*
   - name: Monitoring
     uid: azure.python.sdk.landingPage.services.Monitor.pre
-    href: ~/docs-ref-services/preview/monitoring.md
     landingPageType: Service
     items:
     - name: Management
       uid: azure.python.sdk.landingPage.services.Monitor.Management.pre
+      href: ~/docs-ref-services/preview/monitoring.md
       children:
       - azure-mgmt-monitor*
   - name: NetApp
