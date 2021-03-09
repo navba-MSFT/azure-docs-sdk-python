@@ -2006,9 +2006,9 @@
         "doc*"
       ],
       "package_info": {
-        "install_type": "pypi",
         "name": "azure-mgmt-redisenterprise",
-        "prefer_source_distribution": "true"
+        "prefer_source_distribution": "true",
+        "install_type": "pypi"
       }
     }
   ],
