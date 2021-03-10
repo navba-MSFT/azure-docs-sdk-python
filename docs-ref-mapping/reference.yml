@@ -487,8 +487,8 @@
       uid: azure.python.sdk.landingPage.services.IoT.Management
       landingPageType: Service
       children:
-      - azure-mgmt-iothub*
       - azure-mgmt-deviceupdate*
+      - azure-mgmt-iothub*
   - name: Key Vault
     uid: azure.python.sdk.landingPage.services.Key.Vault
     href: ~/docs-ref-services/latest/key-vault-index.md
