@@ -330,8 +330,8 @@
       uid: azure.python.sdk.landingPage.services.IoT.Management.pre
       landingPageType: Service
       children:
-      - azure-mgmt-iothub*
       - azure-mgmt-deviceupdate*
+      - azure-mgmt-iothub*
   - name: Key Vault
     uid: azure.python.sdk.landingPage.services.Key.Vault.pre
     href: ~/docs-ref-services/preview/key-vault-index.md
